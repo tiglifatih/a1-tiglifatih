@@ -1,0 +1,52 @@
+body{
+	background-color: #0F2DA3;
+}
+h3{
+	font-family: "Impact", serif;
+}
+p{
+	font-family: "Helvetica", sans-serif;
+}
+.info, .euroleague, .history, .trophy{
+	padding: 30px;
+	margin: 30px;
+}
+.info, .history{
+	background-color: #061242;
+	color: #FFC40C;
+}
+.euroleague, .trophy{
+	background-color: #061242;
+	font-family: "Calibri", sans-serif;
+}
+.euroleaguetable, .trophytable{
+	text-align: center;
+	color: #061242;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: white;
+}
+.euroleaguetable th, .euroleaguetable td{
+	border-bottom: 2px solid #061242;
+	padding: 3px;
+}
+.trophytable th, .trophytable td{
+	border: 2px solid #061242;
+	padding: 3px;
+}
+.euroleaguetable tr:hover, .trophytable tr:hover{
+	background-color: #FFC40C;
+}
+div.ref{
+	background-color: #061242;
+	text-align: center;
+	color: #FFC40C;
+	padding: 10px;
+	margin: 30px;
+}
+a.ref:link, a.ref:visited, a.ref:active{
+	color: #F94D00;
+	}
+a.ref:hover{
+	background-color: white;
+	}

@@ -1,0 +1,35 @@
+body{
+	background-color: #0F2DA3;
+}
+div{
+	background-color: #061242;
+	padding: 30px;
+	margin: 30px;
+}
+.roster{
+	width: 100%;
+	text-align: center;
+	font-family: "Calibri", sans-serif;
+}
+.roster td{
+	border: 3px solid #FFC40C;
+	padding: 10px;
+}
+.rosterpics{
+	width: 85%;
+}
+.players{
+	text-decoration: none;
+}
+.players:link, .players:visited, .players:active{
+	color: #061242;
+}
+.players:hover{
+	color: #FFC40C;
+}
+.rosterpics{
+	opacity: 0.5;
+}
+.rosterpics:hover{
+	opacity: 1;
+}

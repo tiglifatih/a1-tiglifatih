@@ -1,0 +1,30 @@
+body{
+	background-color: #0F2DA3;
+}
+.ref{
+	border: 3px solid #FFC40C;
+	text-align: center;
+	padding: 30px;
+	margin: 5px 30px;
+}
+.reference{
+	width: 50%;
+	padding: 10px;
+}
+.reference:hover{
+	opacity: 0.7;
+	}
+.about{
+	border: 3px solid #FFC40C;
+	margin: 0px 30px;
+	padding: 5px;
+}
+.link{
+	width: 3%;
+}
+p{
+	float: right;
+	font-size: 20px;
+	font-family: "Cabin", Helvatica, serif;
+	color: #FFC40C;
+}
